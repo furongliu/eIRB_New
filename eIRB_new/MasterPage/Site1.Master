@@ -1,0 +1,105 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="eIRB_new.MasterPage.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>歡迎光臨</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="../Scripts/jquery-3.3.1.min.js"></script>
+    <%--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>--%>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        .row.content {
+            height: 450px;
+        }
+
+        /* Set gray background color and 100% height */
+        .sidenav {
+            padding-top: 20px;
+            background-color: #f1f1f1;
+            height: 100%;
+        }
+
+        /* Set black background color, white text and some padding */
+        footer {
+            background-color: #c1c1c1;
+            position: fixed;
+            !important;
+            width: 100%;
+            bottom: 0;
+            z-index: 5;
+            height: 7%;
+            background-repeat: repeat-x;
+            _position: absolute;
+            _top: expression(document.body.scrollTop+document.body.clientHeight-this.clientHeight);
+        }
+
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+
+            .row.content {
+                height: auto;
+            }
+        }
+
+        body {
+            font-family: 'Microsoft JhengHei';
+            height:100%;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" id="homepage"><span class="glyphicon glyphicon-home"></span>首頁</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <%--<ul class="nav navbar-nav">
+        <li class="active"><a href="#"></a></li>
+      </ul>--%>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-book"></span>使用說明</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>帳戶設定</a></li>
+                    <li><a href="../00_logon.aspx" target="_self"><span class="glyphicon glyphicon-log-out"></span>登出</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-center">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </div>
+
+    <footer class="container-fluid text-right">
+        <p>
+            創源生物科技 分子視算中心製作 © 2018 
+            <br />
+            <a href="http://www.gga.asia" target="_blank"><b>www.gga.asia</b></a>
+        </p>
+    </footer>
+    </form>
+</body>
+</html>

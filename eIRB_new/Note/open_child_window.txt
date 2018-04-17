@@ -1,0 +1,32 @@
+﻿母
+//開起子視窗，讓視窗置中
+        function window_open(page, from) {
+            var theURL = "List/" + page + "?from=" + from;     //網頁位置;
+            var winName = "請選擇台灣參與試驗的機構";    //網頁名稱;
+            var win_width = 600;
+            var win_height = 600;
+            var PosX = (screen.width - win_width) / 2;
+            var PosY = (screen.Height - win_height) / 2;
+            var features = "width=" + win_width + ",height=" + win_height + ",top=" + PosY + ",left=" + PosX;
+            window.open(theURL, winName, features);
+        }
+
+		子
+		function back_value() {
+            var from = getParameterByName('from');
+            var output = "window_open2";
+            if (from == "1") {
+                output = "window_open1";
+            }
+            var tmp = "";
+            $(':checkbox').each(function () {
+                if ($(this).prop('checked') == true && $(this).val()!=="") {
+                    tmp += $(this).val()+";";
+                } else if ($('#other').prop('checked') == true && $(this).val() == "") {
+                    tmp += $('.other').val()+";";
+                }
+            });
+            //alert(tmp);
+            window.opener.document.getElementById(output).value = tmp;
+            window.close();
+        }

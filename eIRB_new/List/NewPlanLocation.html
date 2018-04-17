@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font-family: 'Microsoft JhengHei';
+        }
+
+        .table.borderless tr td, .table.borderless tr th {
+            border-width: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table class="table borderless">
+            <tr>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="台北馬偕紀念醫院" />台北馬偕紀念醫院</label>
+                    </div>
+                </td>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="淡水馬偕紀念醫院" />淡水馬偕紀念醫院</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="臺大醫院" />臺大醫院</label>
+                    </div>
+                </td>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="三軍總醫院" />三軍總醫院</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="台北榮民總醫院" />台北榮民總醫院</label>
+                    </div>
+                </td>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="台北長庚醫院" />台北長庚醫院</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="林口長庚醫院" />林口長庚醫院</label>
+                    </div>
+                </td>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="國泰綜合醫院" />國泰綜合醫院</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="新光醫院" />新光醫院</label>
+                    </div>
+                </td>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="萬芳醫院" />萬芳醫院</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="台中榮民總醫院" />台中榮民總醫院</label>
+                    </div>
+                </td>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="中國醫藥大學附設醫院" />中國醫藥大學附設醫院</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="彰化基督教醫院" />彰化基督教醫院</label>
+                    </div>
+                </td>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="奇美醫院" />奇美醫院</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="成大醫院" />成大醫院</label>
+                    </div>
+                </td>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="高雄醫大附設中和紀念醫院" />高雄醫大附設中和紀念醫院</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="中山醫學大學附設醫院" />中山醫學大學附設醫院</label>
+                    </div>
+                </td>
+                <td>
+                    <div class="checkbox">
+                        <label class="col-sm-2">
+                            <input type="checkbox" value="" id="other"/>其他：
+                        </label>
+                        <div class="col-sm-4">
+                            <input class="form-control default_disabled other" type="text" />
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <button type="button" class="btn btn-default" onclick="back_value()">送出</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="../MyScripts/getParameterByName.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.default_disabled').prop('disabled', true);
+            $('#other').click(function () {
+                if ($('#other').prop('checked') == true) $('.other').attr('disabled', false);
+                else {
+                    $('.other').attr('disabled', true);
+                    $('.other').val('');
+                }
+            });
+        });
+
+        function back_value() {
+            var from = getParameterByName('from');
+            var output = "window_open" + from;
+            var tmp = "";
+            $(':checkbox').each(function () {
+                if ($(this).prop('checked') == true && $(this).val()!=="") {
+                    tmp += $(this).val()+";";
+                } else if (this.id=='other' && $('#other').prop('checked') == true && $('.other').val() !== "") {
+                    tmp += $('.other').val()+";";
+                }
+            });
+            //alert(tmp);
+            if (from == "3") output = "plan3_6";
+            window.opener.document.getElementById(output).value = tmp;
+            window.close();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\ApplicationInsights.config
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\roslyn\csc.exe
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\roslyn\vbc.exe
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\roslyn\VBCSCompiler.exe
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\eIRB_new.dll.config
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\eIRB_new.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\eIRB_new.pdb
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.AI.Web.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.AI.Web.xml
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\obj\Debug\eIRB_new.csprojResolveAssemblyReference.cache
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\obj\Debug\eIRB_new.dll
+C:\Users\Furong\Documents\Visual Studio 2015\Projects\eIRB_new\obj\Debug\eIRB_new.pdb
+D:\furong\eIRB_new\eIRB_new\bin\ApplicationInsights.config
+D:\furong\eIRB_new\eIRB_new\bin\roslyn\csc.exe
+D:\furong\eIRB_new\eIRB_new\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\furong\eIRB_new\eIRB_new\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\furong\eIRB_new\eIRB_new\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\furong\eIRB_new\eIRB_new\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\furong\eIRB_new\eIRB_new\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\furong\eIRB_new\eIRB_new\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\furong\eIRB_new\eIRB_new\bin\roslyn\System.Collections.Immutable.dll
+D:\furong\eIRB_new\eIRB_new\bin\roslyn\System.Reflection.Metadata.dll
+D:\furong\eIRB_new\eIRB_new\bin\roslyn\vbc.exe
+D:\furong\eIRB_new\eIRB_new\bin\roslyn\VBCSCompiler.exe
+D:\furong\eIRB_new\eIRB_new\bin\roslyn\VBCSCompiler.exe.config
+D:\furong\eIRB_new\eIRB_new\bin\eIRB_new.dll.config
+D:\furong\eIRB_new\eIRB_new\bin\eIRB_new.dll
+D:\furong\eIRB_new\eIRB_new\bin\eIRB_new.pdb
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.AI.Agent.Intercept.dll
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.AI.DependencyCollector.dll
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.AI.Web.dll
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.AI.WindowsServer.dll
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.ApplicationInsights.dll
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\furong\eIRB_new\eIRB_new\bin\Newtonsoft.Json.dll
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.AI.DependencyCollector.xml
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.AI.Web.xml
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.AI.WindowsServer.xml
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.ApplicationInsights.xml
+D:\furong\eIRB_new\eIRB_new\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\furong\eIRB_new\eIRB_new\bin\Newtonsoft.Json.xml
+D:\furong\eIRB_new\eIRB_new\obj\Debug\eIRB_new.dll
+D:\furong\eIRB_new\eIRB_new\obj\Debug\eIRB_new.pdb
+D:\furong\eIRB_new\eIRB_new\bin\log4net.dll
+D:\furong\eIRB_new\eIRB_new\bin\log4net.xml
+D:\furong\eIRB_new\eIRB_new\obj\Debug\eIRB_new.csprojResolveAssemblyReference.cache

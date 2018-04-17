@@ -1,0 +1,24 @@
+﻿
+    //取得span的值
+$("span").html()
+
+//把值填入span
+$("span").html("test")
+
+//計算所有span的金額
+JavaScript:
+    function count_data(){
+        var total
+        $('.class_s').each(function(index){
+            total = total+ parseFloat($(this).html()); //把所有class為class_s的內容相加
+        });
+
+        $("#sale").html(total); //把值填入span id = sale
+    }
+
+HTML:
+＜span class="class_s" id="c1">100＜span>
+＜span class="class_s" id="c2">200＜span>
+＜span class="class_s" id="c3">300＜span>
+＜span class="class_s" id="c4">400＜span>
+＜span id="sale">＜span>
